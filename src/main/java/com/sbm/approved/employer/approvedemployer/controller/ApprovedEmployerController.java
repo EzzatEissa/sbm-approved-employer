@@ -23,6 +23,6 @@ public class ApprovedEmployerController {
     @Path("/message")
     @Produces(MediaType.TEXT_PLAIN)
     public String getApprovedEmployer() {
-        return "welcome: " + welcome + "\nmessage: "+ message;
+        return "welcome2: " + welcome + "\nmessage2: "+ message;
     }
 }
